@@ -22,6 +22,7 @@ function checkWinner() {
     return;
   }
 }
+
 function HandleClick(el) {
   const id = Number(el.id);
   arr[id] = currentPlayer;
